@@ -115,12 +115,50 @@ h2 {
 
 /* BLOC INPUT */
 
+form {
+    padding: 1rem 3rem;
+    background-color: white;
+    box-shadow: 0px 2px 8px 2px rgb(0 0 0 / 0.2);
+}
+
+/* .wrapper {
+
+} */
+
+form p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 200px;
+}
+
+label {
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+    color: darkslategray;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 1px 2px 16px 2px rgb(0 0 0 / 0.2);
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
 /* Sous les input */
 
 button {
     padding: 1rem 3rem;
     width: fit-content;
-    background-color: darkgreen;
+    background-color: #596D48;
     color: white;
     font-weight: bold;
     text-align: center;
