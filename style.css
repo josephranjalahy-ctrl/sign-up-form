@@ -33,9 +33,12 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Partie de gauche */
+
 .left {
     position: relative;
     text-align: center;
+    width: 35%;
 }
 
 img[src="img/background-image.jpg"] {
@@ -43,7 +46,7 @@ img[src="img/background-image.jpg"] {
     height: 100%;
 }
 
-.left {
+.left div {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -74,4 +77,23 @@ div p {
     right: 0;
     bottom: 2rem;
     color: white;
+}
+
+/* Partie de droite */
+
+.right,
+.promotional,
+form,
+.connexion {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+    width: 65%;
+    background-color: rgb(211 211 211 / 0.5);
+    gap: 48px;
+    justify-content: center;
 }
